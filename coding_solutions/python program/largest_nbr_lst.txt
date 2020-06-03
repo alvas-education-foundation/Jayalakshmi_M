@@ -1,0 +1,7 @@
+n=int(input())
+list=[]
+for i in range(0,n):
+    elem=int(input())
+    list.append(elem)
+list.sort()
+print("largest number is",list[-1])
